@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Señorita Isme</title>
+    <style>
+        /* Estilos Base */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-image: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #0a0a0a 100%);
+        }
+
+        /* Contenedor Principal (Carta) */
+        .card-container {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 40px 30px;
+            width: 90%;
+            max-width: 450px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(82, 47, 47, 0.7);
+            transition: transform 0.3s ease;
+        }
+
+        .card-container:hover {
+            transform: translateY(-5px);
+            border-color: #911d91; /* Destello dorado al pasar el cursor */
+        }
+
+        /* Espacio para la Foto */
+        .photo-frame {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 25px auto;
+            border-radius: 70%;
+            border: 3px solid #911f87; /* Detalle elegante en lila */
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(223, 183, 108, 0.2);
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Título / Dedicatoria */
+        h1 {
+            font-size: 1.8rem;
+            color: #a1208c;
+            margin-bottom: 20px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        /* Texto de la Carta */
+        .love-letter {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #e0e0e0;
+            text-align: justify;
+            margin-bottom: 30px;
+            white-space: pre-line; /* Mantiene los saltos de línea del texto */
+        }
+
+        /* Detalle Final (Corazón) */
+        .heart {
+            color: #e63946;
+            font-size: 1.5rem;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
+
+        /* Firma */
+        .signature {
+            margin-top: 15px;
+            font-style: italic;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <div class="photo-frame">
+            <img src="tu-foto.jpg">
+        </div>
+
+        <h1>Para el amor de mi vida</h1>
+
+        <div class="love-letter">
+           SEÑORITA ISME 20 AÑERA!!! Te amo con todita el alma, con todo mi ser, tengo muchas razones ya para amarte... te amo porque me amas, porque me cuidas, por ser tan paciente conmigo, comprensiva aun cuando soy tan tan #!$!°"!!"!#", TE AMO TANTO ISMERAY.
+
+            Y no te amo solo por lo que eres conmigo o por lo especial que me haces sentir, si no por lo valiosa que eres! Soy tan bendecido por Dios con ese hecho de haberte puesto en mi vida, una oracion contestada,esa persona que siempre soñé tener de niño, una persona con la que quiero vivir con mis hijos todas esas cosas que siempre quise vivir (no creo que Dios me esté ilusionando) porque eres todo lo que le pedí, Una mujer que le sirve a Dios, que ame a los niños, que sea paciente, de buena familia, con buena apariencia, de ojos hermosos, con espectacular cabello y asi mil y un atributos que amo y admiro de ti. Enserio, nunca dudes que te amo, eres todo lo que quiero...
+        </div>
+
+        <div class="heart">💘</div>
+          </div>
+
+</body>
+</html>
